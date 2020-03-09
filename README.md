@@ -93,7 +93,7 @@ latitudes diferentes, basta dividir a integral de ```m``` entre as latitudes e
 dividí-la pela diferença entre as latitudes. A partir dele, podemos calcular a
 o tamanho médio de um grau, ou seja:
 
-```(π * R / 180) * (sen(π * b/180) - sen(π * a / 180))```
+```(π * R / 180) * (sen(π * b/180) - sen(π * a / 180)) / (b - a)```
 
 sendo a e b as duas latitudes, em graus.
 
